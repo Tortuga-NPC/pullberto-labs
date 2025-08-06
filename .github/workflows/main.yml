@@ -1,0 +1,12 @@
+name: ping
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say-hi:
+    runs-on: [self-hosted, ephemeral, docker]
+    steps:
+      - run: echo "🐧 Hello desde el runner épico Pullbertito"
