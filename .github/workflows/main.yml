@@ -7,6 +7,6 @@ on:
 
 jobs:
   say-hi:
-    runs-on: [self-hosted, ephemeral, docker]
+    runs-on: [self-hosted, ephemeral]
     steps:
       - run: echo "🐧 Hello desde el runner épico Pullbertito"
